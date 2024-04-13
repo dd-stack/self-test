@@ -20,7 +20,9 @@ const StartButton = styled.button`
 export default function Title() {
   return (
     <EntireContainer>
-      <img src={logo} width="150px" alt="KOPIA logo" />
+      <a href="https://www.kopia.or.kr/" target="_blank" rel="noopener noreferrer">
+        <img src={logo} width="150px" alt="KOPIA logo" />
+      </a>
       <TitleText>
         시장 개척 지원 사업
         <br />
