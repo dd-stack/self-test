@@ -1,5 +1,5 @@
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
-
 import logo from "../assets/logo.png";
 
 const EntireContainer = styled.div`
@@ -18,6 +18,12 @@ const StartButton = styled.button`
 `;
 
 export default function Title() {
+  const navigate = useNavigate();
+
+  function handleStartClick() {
+    navigate("/step1");
+  }
+
   return (
     <EntireContainer>
       <a href="https://www.kopia.or.kr/" target="_blank" rel="noopener noreferrer">
@@ -28,7 +34,7 @@ export default function Title() {
         <br />
         자가 진단
       </TitleText>
-      <StartButton>시작하기</StartButton>
+      <StartButton onClick={handleStartClick}>시작하기</StartButton>
     </EntireContainer>
   );
 }
