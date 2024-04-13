@@ -1,6 +1,10 @@
 import styled from "styled-components";
 import { FiAlertTriangle } from "react-icons/fi";
 
+const EntireContainer = styled.div`
+  margin-bottom: 80px;
+`;
+
 const RedContainer = styled.div`
   width: 320px;
   display: flex;
@@ -30,11 +34,9 @@ const UnorderedList = styled.li`
   width: 320px;
   text-align: left;
   margin-top: 20px;
-  // font-weight: 600;
   > span {
     display: block;
     font-size: 0.8rem;
-    // font-weight: 400;
   }
 `;
 
@@ -80,7 +82,7 @@ const NoneStyledLink = styled.a`
 
 export default function Red() {
   return (
-    <>
+    <EntireContainer>
       <RedContainer>
         앗! 아쉽지만 시장 개척 사업에 <br />
         참여하기 어렵습니다.
@@ -120,6 +122,6 @@ export default function Red() {
       <NoneStyledLink href="mailto:samwoocsn@gmail.com">
         <ApplicationButton>맞춤형 외주사 매칭 프로그램 신청</ApplicationButton>
       </NoneStyledLink>
-    </>
+    </EntireContainer>
   );
 }

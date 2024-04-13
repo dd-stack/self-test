@@ -1,6 +1,10 @@
 import styled from "styled-components";
 import { FiAlertCircle } from "react-icons/fi";
 
+const EntireContainer = styled.div`
+  margin-bottom: 80px;
+`;
+
 const GreenContainer = styled.div`
   width: 320px;
   display: flex;
@@ -74,7 +78,7 @@ const NoneStyledLink = styled.a`
 
 export default function Green() {
   return (
-    <>
+    <EntireContainer>
       <GreenContainer>
         축하합니다!
         <br />
@@ -120,6 +124,6 @@ export default function Green() {
           자문 컨설팅 신청
         </ApplicationButton>
       </NoneStyledLink>
-    </>
+    </EntireContainer>
   );
 }

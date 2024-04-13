@@ -1,6 +1,10 @@
 import styled from "styled-components";
 import { FiAlertOctagon } from "react-icons/fi";
 
+const EntireContainer = styled.div`
+  margin-bottom: 80px;
+`;
+
 const YellowContainer = styled.div`
   width: 320px;
   display: flex;
@@ -30,10 +34,8 @@ const UnorderedList = styled.li`
   width: 320px;
   text-align: left;
   margin-top: 20px;
-  //font-weight: 600;
   > span {
     font-size: 0.8rem;
-    // font-weight: 400;
   }
 `;
 
@@ -79,7 +81,7 @@ const NoneStyledLink = styled.a`
 
 export default function Yellow() {
   return (
-    <>
+    <EntireContainer>
       <YellowContainer>
         잠깐! 어려운 부분이 있지만 <br />
         도와드릴 수 있습니다.
@@ -137,6 +139,6 @@ export default function Yellow() {
       <NoneStyledLink href="mailto:samwoocsn@gmail.com">
         <ApplicationButton>맞춤형 외주사 매칭 프로그램 신청</ApplicationButton>
       </NoneStyledLink>
-    </>
+    </EntireContainer>
   );
 }
