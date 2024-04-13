@@ -77,7 +77,15 @@ function App() {
         />
         <Route path="green" element={<Green />} />
         <Route path="yellow" element={<Yellow />} />
-        <Route path="red" element={<Red />} />
+        <Route
+          path="red"
+          element={
+            <>
+              <Header />
+              <Red />
+            </>
+          }
+        />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </BrowserRouter>

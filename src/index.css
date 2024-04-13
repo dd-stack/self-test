@@ -25,6 +25,12 @@ body {
   min-height: 100vh;
 }
 
+ol,
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
