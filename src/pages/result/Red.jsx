@@ -17,7 +17,7 @@ const RedContainer = styled.div`
 const ExplainContainer = styled.div`
   width: 320px;
   text-align: left;
-  color: #ff50509e;
+  color: #ee4c4c9e;
   font-weight: 600;
   margin-top: 20px;
   > svg {
@@ -30,9 +30,11 @@ const UnorderedList = styled.li`
   width: 320px;
   text-align: left;
   margin-top: 20px;
+  // font-weight: 600;
   > span {
     display: block;
     font-size: 0.8rem;
+    // font-weight: 400;
   }
 `;
 
@@ -85,8 +87,9 @@ export default function Red() {
       </RedContainer>
       <ExplainContainer>
         <FiAlertTriangle />
-        이러한 경우는 시장 개척 사업 참여에 <br />
-        &nbsp;&nbsp; 적합하지 않습니다.
+        이러한 경우는 시장 개척 사업에 적합
+        <br />
+        &nbsp;&nbsp; 하지 않습니다.
       </ExplainContainer>
       <ul>
         <UnorderedList>- 단순 상품이나 제품의 수출의 경우</UnorderedList>

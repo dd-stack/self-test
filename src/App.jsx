@@ -75,8 +75,24 @@ function App() {
             </>
           }
         />
-        <Route path="green" element={<Green />} />
-        <Route path="yellow" element={<Yellow />} />
+        <Route
+          path="green"
+          element={
+            <>
+              <Header />
+              <Green />
+            </>
+          }
+        />
+        <Route
+          path="yellow"
+          element={
+            <>
+              <Header />
+              <Yellow />
+            </>
+          }
+        />
         <Route
           path="red"
           element={
