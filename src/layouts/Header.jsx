@@ -7,14 +7,14 @@ const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  margin: 30px 0;
 `;
 
 const MenuButton = styled.div`
   display: flex;
   align-items: center;
   font-size: 1.2rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #072e915e;
   text-shadow: -1px 0px #fff, 0px 1px #fff, 1px 0px #fff, 0px -1px #fff;
   cursor: pointer;

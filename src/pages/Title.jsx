@@ -3,18 +3,20 @@ import styled from "styled-components";
 import logo from "../assets/logo.png";
 
 const EntireContainer = styled.div`
-  margin-top: 60pt;
+  margin-top: 80px;
 `;
 
 const TitleText = styled.h1`
-  margin-top: 10pt;
+  margin-top: 15px;
   font-size: 2.2rem;
   font-weight: 700;
   line-height: 1.7;
 `;
 
 const StartButton = styled.button`
-  margin-top: 30pt;
+  margin-top: 40px;
+  font-size: 1.4rem;
+  font-weight: 600;
 `;
 
 export default function Title() {
