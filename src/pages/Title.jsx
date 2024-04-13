@@ -3,7 +3,7 @@ import styled from "styled-components";
 import logo from "../assets/logo.png";
 
 const EntireContainer = styled.div`
-  margin-top: 80px;
+  margin: 80px 0;
 `;
 
 const TitleText = styled.h1`
