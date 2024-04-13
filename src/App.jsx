@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 // import layouts
 import Header from "./layouts/Header";
-import Footer from "./layouts/Footer";
 
 // imoport pages
 import Title from "./pages/Title";
@@ -21,15 +20,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <Title />
-              <Footer />
-            </>
-          }
-        />
+        <Route path="/" element={<Title />} />
         <Route
           path="step1"
           element={
