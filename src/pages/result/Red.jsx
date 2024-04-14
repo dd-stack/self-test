@@ -113,7 +113,7 @@ export default function Red() {
           <a href="mailto:kopia@kopia.or.kr">kopia@kopia.or.kr</a>
           <br />
           전문 컨설턴트:&nbsp;
-          <a href="tel:01082550335">010-8255-0335</a>
+          <a>010-8255-0335</a>
         </Contacts>
       </ContactsContainer>
       <NoneStyledLink href="mailto:kopia@kopia.or.kr">
