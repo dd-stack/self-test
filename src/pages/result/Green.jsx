@@ -7,6 +7,7 @@ import {
   ApplicationButton,
   NoneStyledLink,
 } from "../../components/ResultPageStyles";
+import BusinessGuidance from "../../components/BusinessGuidance";
 
 const GreenContainer = styled.div`
   width: 320px;
@@ -87,6 +88,7 @@ export default function Green() {
           자문 컨설팅 신청
         </ApplicationButton>
       </NoneStyledLink>
+      <BusinessGuidance />
     </EntireContainer>
   );
 }

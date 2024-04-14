@@ -15,7 +15,7 @@ const MenuButton = styled.div`
   align-items: center;
   font-size: 1.2rem;
   font-weight: 600;
-  color: #072e915e;
+  color: #072e91c0;
   text-shadow: -1px 0px #fff, 0px 1px #fff, 1px 0px #fff, 0px -1px #fff;
   cursor: pointer;
   > svg {

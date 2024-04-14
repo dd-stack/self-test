@@ -7,6 +7,7 @@ import {
   ApplicationButton,
   NoneStyledLink,
 } from "../../components/ResultPageStyles";
+import BusinessGuidance from "../../components/BusinessGuidance";
 
 const RedContainer = styled.div`
   width: 320px;
@@ -85,6 +86,7 @@ export default function Red() {
       <NoneStyledLink href="mailto:samwoocsn@gmail.com">
         <ApplicationButton>맞춤형 외주사 매칭 프로그램 신청</ApplicationButton>
       </NoneStyledLink>
+      <BusinessGuidance />
     </EntireContainer>
   );
 }
