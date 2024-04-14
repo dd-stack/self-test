@@ -103,7 +103,7 @@ export default function Yellow() {
         <UnorderedList>
           - 수출액이 5백만 불 미만인 경우
           <br />
-          <span>&nbsp;&nbsp;(기술 아이템, 시장 개척 조사는 가능한 경우 소개)</span>
+          <span>&nbsp;&nbsp;(기술 아이템에 따라 가능한 경우 소개)</span>
         </UnorderedList>
         <UnorderedList>
           - 회사의 매출이 50억 이하인 경우
