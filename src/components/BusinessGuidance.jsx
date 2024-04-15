@@ -15,7 +15,7 @@ const DividingLine = styled.div`
   margin: 0 auto;
 `;
 
-const ButtonWrapper = styled.div`
+const ButtonsWrapper = styled.div`
   display: flex;
   justify-content: space-between;
 `;
@@ -49,7 +49,7 @@ export default function BusinessGuidance() {
     <EntireContainer>
       <DividingLine />
       {/*실제 사이트 주소로 변경 필요*/}
-      <ButtonWrapper>
+      <ButtonsWrapper>
         <NoneStyledLink
           href="https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000205&nttId=106794"
           target="_blank"
@@ -72,7 +72,7 @@ export default function BusinessGuidance() {
             동영상
           </LinkButton>
         </NoneStyledLink>
-      </ButtonWrapper>
+      </ButtonsWrapper>
     </EntireContainer>
   );
 }

@@ -55,18 +55,18 @@ export default function Red() {
         <FiAlertTriangle />
         이러한 경우는 시장 개척 사업에 적합
         <br />
-        &nbsp;&nbsp; 하지 않습니다.
+        &nbsp;&nbsp;&nbsp; 하지 않습니다.
       </ExplainContainer>
       <ul>
         <UnorderedList>- 단순 상품이나 제품의 수출의 경우</UnorderedList>
         <UnorderedList>- 계약이 성사된 경우</UnorderedList>
         <UnorderedList>
           - 발주처의 매출이나 규모가 적을 경우
-          <span>&nbsp;&nbsp;(수출 아이템과 현지 상황에 따라 가능할 수 있음)</span>
+          <span>&nbsp;&nbsp; (수출 아이템과 현지 상황에 따라 가능할 수 있음)</span>
         </UnorderedList>
         <UnorderedList>
           - 경쟁입찰로 수주 가능성이 적을 경우
-          <span>&nbsp;&nbsp;(수출 아이템과 현지 상황에 따라 가능할 수 있음)</span>
+          <span>&nbsp;&nbsp; (수출 아이템과 현지 상황에 따라 가능할 수 있음)</span>
         </UnorderedList>
       </ul>
       <ContactsContainer>

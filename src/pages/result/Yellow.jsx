@@ -53,7 +53,7 @@ export default function Yellow() {
       <ExplainContainer>
         <FiAlertOctagon />
         이러한 경우에는 사업 참여를 위한 <br />
-        &nbsp;&nbsp; 확인이나 지원 컨설팅이 필요합니다.
+        &nbsp;&nbsp;&nbsp; 확인이나 지원 컨설팅이 필요합니다.
       </ExplainContainer>
       <ul>
         <UnorderedList>
@@ -61,28 +61,28 @@ export default function Yellow() {
           <span>
             &nbsp;(발주처 및 외주사 발굴 여부,
             <br />
-            &nbsp;&nbsp;LOI 또는 MOU 발급 가능 여부 등 확인 필요)
+            &nbsp;&nbsp; LOI 또는 MOU 발급 가능 여부 등 확인 필요)
           </span>
         </UnorderedList>
         <UnorderedList>
           - 수출액이 5백만 불 미만인 경우
           <br />
-          <span>&nbsp;&nbsp;(기술 아이템에 따라 가능한 경우 소개)</span>
+          <span>&nbsp;&nbsp; (기술 아이템에 따라 가능한 경우 소개)</span>
         </UnorderedList>
         <UnorderedList>
           - 회사의 매출이 50억 이하인 경우
           <br />
-          <span>&nbsp;&nbsp;(특허, 공동 수행사 등 보강 확인 및 지원 방안 소개)</span>
+          <span>&nbsp;&nbsp; (특허, 공동 수행사 등 보강 확인 및 지원 방안 소개)</span>
         </UnorderedList>
         <UnorderedList>
           - 발주처의 매출이 1천만 불 미만인 경우
           <br />
-          <span>&nbsp;&nbsp;(발주처의 공공성, 글로벌 모회사 등 보완 요소 확인)</span>
+          <span>&nbsp;&nbsp; (발주처의 공공성, 글로벌 모회사 등 보완 요소 확인)</span>
         </UnorderedList>
         <UnorderedList>
           - 제한 경쟁 입찰인 경우
           <br />
-          <span>&nbsp;&nbsp;(발주처의 기술력 인정, 참여 요청 여부 등 확인 필요)</span>
+          <span>&nbsp;&nbsp; (발주처의 기술력 인정, 참여 요청 여부 등 확인 필요)</span>
         </UnorderedList>
       </ul>
       <ContactsContainer>

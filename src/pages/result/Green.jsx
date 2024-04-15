@@ -51,7 +51,7 @@ export default function Green() {
       <ExplainContainer>
         <FiAlertCircle />
         추진 사업에 따라 다음 3가지 사업 중 <br />
-        &nbsp;&nbsp; 하나를 신청하실 수 있습니다.
+        &nbsp;&nbsp;&nbsp; 하나를 신청하실 수 있습니다.
       </ExplainContainer>
       <ul>
         <UnorderedList>
@@ -61,7 +61,7 @@ export default function Green() {
         </UnorderedList>
         <UnorderedList>
           - 시장 개척 조사 사업: <br />
-          &nbsp;&nbsp;3) 시장 조사 지원 사업
+          &nbsp;&nbsp; 3) 시장 조사 지원 사업
         </UnorderedList>
       </ul>
       <ContactsContainer>
