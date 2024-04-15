@@ -51,7 +51,7 @@ export default function BusinessGuidance() {
       {/*실제 사이트 주소로 변경 필요*/}
       <ButtonsWrapper>
         <NoneStyledLink
-          href="https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000205&nttId=106794"
+          href="http://kswtc.com/default/main/notice.php?com_board_basic=read_form&com_board_idx=92&com_board_id=5"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -62,7 +62,7 @@ export default function BusinessGuidance() {
           </LinkButton>
         </NoneStyledLink>
         <NoneStyledLink
-          href="https://www.youtube.com/watch?v=YnKEHu6DyFg"
+          href="https://www.youtube.com/watch?v=fnnycnElnNM"
           target="_blank"
           rel="noopener noreferrer"
         >
